@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D81FEC8-B113-7F98-74F6-84B85B53432E" name="ENTIDAD_FINANCIERA">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>A292DAFB-373B-00FD-C2E0-FE7528DAA33A</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_entidad" id="78E0D822-57EB-279C-E266-736D060FBF4C">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>8955DB2C-C0BB-7811-5B7F-8AB0D4C88FB6</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4337206F-14D9-30EE-9C15-73882698F8B7">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>B6AC47A2-93BF-7174-A058-2FEEF75F9105</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A02F9CA-32A1-39EE-971F-30EA20AEEE6F" name="ENTIDAD_FINANCIERA_PK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>F47ACD2B-7721-2918-C452-DAEA6C05A7DA</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78E0D822-57EB-279C-E266-736D060FBF4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

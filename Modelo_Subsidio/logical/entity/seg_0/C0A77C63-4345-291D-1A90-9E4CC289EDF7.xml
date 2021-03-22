@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0A77C63-4345-291D-1A90-9E4CC289EDF7" name="PUEBLO_ORIG_IND">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:21:05 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pueblo" id="654471FF-5944-D508-4AB2-EC56C62489AC">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:21:17 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="59F41175-216A-2679-67C0-AB9CBE4AF31A">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:21:28 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA6D822B-8C9A-DF82-F6E9-916E84B8A6FE" name="PUEBLO_ORIG_IND PK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:21:27 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>654471FF-5944-D508-4AB2-EC56C62489AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

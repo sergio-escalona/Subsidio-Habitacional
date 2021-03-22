@@ -1,0 +1,253 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="331069E8-1A54-4C50-60A1-E0A37AB0FD17" name="VIVIENDA">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>D5693327-66A8-5E5E-9B34-B9410B132EA9</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rol" id="02DDEE94-73E0-21D3-0646-284BFDF55F91">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>904E188D-F390-80F2-C186-AF484A577275</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_postulacion" id="055BCAEC-2C80-2ACB-8692-949861A90A65">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>D76F2988-FF7A-6C5C-BE87-B6641EF9E391</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D10CB3EF-A052-7E8C-912B-972F38684722" referredColumn="45C6B2EA-D2FF-5721-C8A9-EA4D9A9BD0C1"/>
+</associations>
+</Column>
+<Column name="id_resolucion" id="D1A97381-98C8-FA1A-339A-81811F55257E">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>DBB34671-1A58-1549-8E22-233A5D95A8A4</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="823BA177-4562-16D8-0C3D-2E6C322919BC" referredColumn="07541E89-A2B8-95C0-7C1B-F63B96AE347F"/>
+</associations>
+</Column>
+<Column name="id_comuna" id="3A4CEC8A-0072-B40A-090E-A57D28AA847F">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>74572D10-828B-F29C-BE81-F4853E09DBCE</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76153028-3D6C-90A6-0D00-D0026ED84EDD" referredColumn="3A324997-231E-B511-539F-0A470F0B610F"/>
+</associations>
+</Column>
+<Column name="id_uso" id="4307D452-A0A4-8C24-7044-C254629E2F61">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>CBAA9DFA-819A-D8D1-1AE5-1D2FA72F58AF</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="838639D6-638C-9456-950F-7C9704D2804E" referredColumn="EF02913F-3273-9053-11DD-5552C05EC316"/>
+</associations>
+</Column>
+<Column name="direccion" id="1DF9B9E2-0772-6D6F-5BF5-843D786805B5">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>C1C61611-0F0B-E076-50EC-CB6CF6D14955</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="depto" id="B4F41947-B26C-9FDC-6335-9CD9B2471E99">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>44C1C8C3-6F89-AAE0-A6FF-BC0E2D2755D7</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="piso" id="4FD0B72B-CE2E-68CD-E4BF-A3EAC01BC222">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>B1B9E47A-6B45-B9ED-955A-5DF3D7ED2E27</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poblacion" id="170F47FB-E5F6-9F5F-9D6D-3F6EC85D123D">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>28AC0842-BF7F-84A5-A821-452F04ED589C</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut_prop" id="6183A2F7-228D-29A9-F9FE-CA14E98014B6">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>D0ACBDBA-41B7-1E0E-7638-C9B563896008</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D69A0365-2E6C-82D9-85DE-2221B07DF1CC" referredColumn="EB094C78-51EC-5293-6A7A-EEDD879C76E8"/>
+</associations>
+</Column>
+<Column name="id_economica" id="7C5073B1-3965-452C-2073-65C7420BF8C6">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>D0C4E6EE-83C4-0492-DDFE-475CFD08BB02</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08F0DF35-6EB5-48AA-A8E5-5154F8BF4235" referredColumn="E56DC26D-3F5A-71C8-4090-BC0D972FE95C"/>
+</associations>
+</Column>
+<Column name="valor" id="AD79AC9F-24FF-7BB0-E15C-89B4754BCAD8">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-11 23:23:09 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A38F45B-160C-A645-7628-2ABD6545D3AC" name="VIVIENDA_PK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>EEB52DF4-AC6B-E2C7-8912-BD69D0C15231</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02DDEE94-73E0-21D3-0646-284BFDF55F91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37FE17FC-F5D0-62D0-44C5-CB0008D4839A" name="POSTULACION_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>35F9FE4A-5F3B-F554-5066-493EC0987DE7</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="055BCAEC-2C80-2ACB-8692-949861A90A65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6206EA89-6A7A-667B-0115-FB1A072B2EE5" name="RESOLUCION_FKv4">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>0EEB9BD8-68A7-247C-4DC0-F19F08675DB6</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1A97381-98C8-FA1A-339A-81811F55257E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E381CD1-CF98-BC94-65E7-A210777E61E0" name="COMUNA_FKv3">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>04FBA4AE-BE2A-DEA4-4A0E-D854AF163CFD</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A4CEC8A-0072-B40A-090E-A57D28AA847F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB75281E-FCA3-ED86-3207-1E356F6530E0" name="VIVIENDA_USADA_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>53E2CFD8-97B2-FE8D-058B-585B1C9F1DFE</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4307D452-A0A4-8C24-7044-C254629E2F61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63927D6B-8A3F-60D0-5221-5905A50C06C9" name="PROPIETARIO_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>F76D1FE9-31DC-6367-B0E0-7743ED056224</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6183A2F7-228D-29A9-F9FE-CA14E98014B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6312DD32-0494-B13B-7B0D-B5C435214405" name="ECONOMICA_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>12CE6237-FFD6-4481-ED8E-4B4D25670CD0</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C5073B1-3965-452C-2073-65C7420BF8C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C5A67F1-FFA4-6562-36C0-756EF0EC1CB7" name="OFICINA">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>806C9DE0-8050-1473-4B91-E272BA60ECF7</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_oficina" id="1C95E9ED-0EBB-06F1-C8DC-E500677B7C8F">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>22C92065-C60D-A7D5-0C4B-6E8C44391C0B</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comuna" id="5108A730-48D9-4CDE-0C35-6E114ABF9DC7">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>44129B38-5FD7-734D-893F-876A4D21230E</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0989A8E7-BAED-0512-282E-074FFE2610BC" referredColumn="3A324997-231E-B511-539F-0A470F0B610F"/>
+</associations>
+</Column>
+<Column name="direccion" id="96DD09FC-ACC1-B90C-9E0C-2939B5AE5339">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>E90D1899-CE60-7FF3-3FCD-3FD5AB7396A4</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF64B323-17B3-A0F5-A01F-4E6F8E0C9315" name="OFICINA_PK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>4548A2B7-8E3B-6FE1-85BD-318AE918E1EC</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C95E9ED-0EBB-06F1-C8DC-E500677B7C8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="622F14F1-7583-41D6-0556-E6CCC44CA0AB" name="OFICINA__IDX">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1DCA56D0-0680-AE65-162A-ED40E311378A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5108A730-48D9-4CDE-0C35-6E114ABF9DC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1F0B7AF-0CD2-F54C-CEF9-5BB31F607E07" name="COMUNA_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>1DCA56D0-0680-AE65-162A-ED40E311378A</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5108A730-48D9-4CDE-0C35-6E114ABF9DC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

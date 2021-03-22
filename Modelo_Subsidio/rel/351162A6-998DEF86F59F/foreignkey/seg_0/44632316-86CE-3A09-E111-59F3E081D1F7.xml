@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44632316-86CE-3A09-E111-59F3E081D1F7" containerWithKeyObject="99BF199A-C95D-CEA2-8373-653B690A874D" localFKIndex="90444A12-344C-CA88-DAD0-7BF2E9211AE5" name="CONSULTOR_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>DD118414-335F-6947-5E23-BAD0B21C9949</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<referredTableLongName>CONSULTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>54F1A306-9D5A-6FDB-CB31-070B296188CB</referredTableID>
+<keyObject>5B722AC8-BF1F-A334-C09A-A4DE7E051438</keyObject>
+<referredKeyID>5B722AC8-BF1F-A334-C09A-A4DE7E051438</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_cons</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

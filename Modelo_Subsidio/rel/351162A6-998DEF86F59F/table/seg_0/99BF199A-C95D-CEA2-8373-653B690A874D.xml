@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99BF199A-C95D-CEA2-8373-653B690A874D" name="CONSULTOR_RESOLUCION">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<ordsAlias>relation_57</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_cons" id="4A1878E7-5535-EA35-0657-D87197DE85C9">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44632316-86CE-3A09-E111-59F3E081D1F7" referredColumn="465403A4-238A-E94C-FFF9-4C92FEDAD647"/>
+</associations>
+</Column>
+<Column name="id_resolucion" id="10FA4258-A064-E96D-9F14-60471B669468">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD22CB2B-45DE-CCC7-F71E-10DF2C99A5CE" referredColumn="07541E89-A2B8-95C0-7C1B-F63B96AE347F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="793D3ECD-1A46-AAE3-3B70-48B71D0D23F5" name="Relation_57_PK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A1878E7-5535-EA35-0657-D87197DE85C9"/>
+<colUsage columnID="10FA4258-A064-E96D-9F14-60471B669468"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90444A12-344C-CA88-DAD0-7BF2E9211AE5" name="CONSULTOR_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>DD118414-335F-6947-5E23-BAD0B21C9949</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A1878E7-5535-EA35-0657-D87197DE85C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2ECE7E4-0D19-7E25-0066-1261074990C1" name="RESOLUCION_FKv2">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>DD118414-335F-6947-5E23-BAD0B21C9949</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10FA4258-A064-E96D-9F14-60471B669468"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

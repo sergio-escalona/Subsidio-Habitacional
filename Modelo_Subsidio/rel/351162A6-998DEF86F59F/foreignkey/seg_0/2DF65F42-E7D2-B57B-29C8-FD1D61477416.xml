@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DF65F42-E7D2-B57B-29C8-FD1D61477416" containerWithKeyObject="6A813894-2433-DF9C-DEC6-C97E79117F9C" localFKIndex="4FF03963-FF94-E55A-5269-D766779E1409" name="ACREDITA_CARGA_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>3084D71F-92BD-534A-10A3-614896E6EB36</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<referredTableLongName>ACREDITA_CARGA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5451282-A7ED-9B7C-C2D4-C5A6FAC1610C</referredTableID>
+<keyObject>3CF089A3-1541-509C-8FF6-7F473D7D0471</keyObject>
+<referredKeyID>3CF089A3-1541-509C-8FF6-7F473D7D0471</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_acred_carga</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

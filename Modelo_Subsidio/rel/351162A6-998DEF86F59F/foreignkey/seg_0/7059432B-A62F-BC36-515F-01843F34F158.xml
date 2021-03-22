@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7059432B-A62F-BC36-515F-01843F34F158" containerWithKeyObject="1D8473E0-DA0B-30CC-524B-B1B7EB6F53C4" localFKIndex="76FD268E-9E73-A589-82D9-BDE86B7D1E71" name="ROL_TITULAR_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>09A875E3-5949-1F76-CF7B-8188775183C8</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<referredTableLongName>ROL_TITULAR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2D2BB26-9661-E390-304F-66E81E1D0524</referredTableID>
+<keyObject>8125F221-F948-1973-4D44-919FBF5C8C53</keyObject>
+<referredKeyID>8125F221-F948-1973-4D44-919FBF5C8C53</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rol</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

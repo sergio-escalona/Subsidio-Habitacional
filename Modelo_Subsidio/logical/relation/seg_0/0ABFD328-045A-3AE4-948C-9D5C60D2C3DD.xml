@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_26" directorySegmentName="seg_0" id="0ABFD328-045A-3AE4-948C-9D5C60D2C3DD">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-06 23:08:42 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<sourcePk>85AC05AC-6C7A-2876-9E6F-A9986FAECA8A</sourcePk>
+<targetPk>119BE8BE-211F-E88B-DFB6-9D96FB544AF7</targetPk>
+<dominantRole>9531E39E-11DF-3264-F0CF-1B328C144E96</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C33C474A-6E29-BF7C-6E1E-257266CCCCD4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9531E39E-11DF-3264-F0CF-1B328C144E96</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

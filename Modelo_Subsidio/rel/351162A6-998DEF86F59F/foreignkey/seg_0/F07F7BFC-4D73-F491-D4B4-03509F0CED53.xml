@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F07F7BFC-4D73-F491-D4B4-03509F0CED53" containerWithKeyObject="ECBABE21-3228-54A5-1912-24C8DB674F8F" localFKIndex="2A030F6D-3838-AA2D-006E-DD1CFF87DDD1" name="ADMINISTRATIVOS_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>0ABFD328-045A-3AE4-948C-9D5C60D2C3DD</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<referredTableLongName>ANT_ADMINISTRATIVOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A878C220-4174-057E-8E8D-396BE6A154B3</referredTableID>
+<keyObject>691E3DFD-14AC-BD27-2E46-5DC48B99C84C</keyObject>
+<referredKeyID>691E3DFD-14AC-BD27-2E46-5DC48B99C84C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ant_adm</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

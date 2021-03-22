@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67C2B4F9-8A41-FA4C-7D29-4E3EB615CB46" containerWithKeyObject="54F1A306-9D5A-6FDB-CB31-070B296188CB" localFKIndex="1FC76037-8E22-0DA0-78EC-054912C39A61" name="CATEGORIA_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>E21B3D6A-9B9D-8A74-8E2A-ACBAFDA601C5</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<referredTableLongName>CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>771E64CE-43BB-DC41-20D1-B338E34CC386</referredTableID>
+<keyObject>A52B3D2A-D4DF-8373-18D7-3DA4DB175083</keyObject>
+<referredKeyID>A52B3D2A-D4DF-8373-18D7-3DA4DB175083</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

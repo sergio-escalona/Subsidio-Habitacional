@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D8473E0-DA0B-30CC-524B-B1B7EB6F53C4" name="LIBRETA_AHORRO">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>A044A9E6-858D-DA07-FE0C-A48C17F4343B</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_libreta" id="DB4A7E32-30DC-51A0-CB3C-A970FD69C0C4">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>6627B69E-A8E9-F91B-91C2-6EF9DDD512AF</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_entidad" id="FD5C67DB-7252-7391-69B4-E5500A1B87C2">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>DFA48E68-F9EF-7031-0C19-24BC5801A21D</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9D560CF-C5BC-81BB-6AC3-69BAFBA7A441" referredColumn="78E0D822-57EB-279C-E266-736D060FBF4C"/>
+</associations>
+</Column>
+<Column name="rut_titular" id="762C0FA8-ED69-6482-522C-C5E51C8060B0">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>7F9FCF0E-4C17-1A44-017A-EE9D6348B98F</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_cuenta" id="538660EC-B003-12B6-1921-2381DD9EC167">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>CF82353F-4466-2C6B-E84C-5991B4DB3658</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_apertura" id="8A6C0191-49AE-55C0-8574-4007AD3BDFFB">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>0F47AAA5-69EE-35B2-5AB7-A97E6DFFC6CA</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ahorro" id="106E6464-97B0-D8C4-5626-9814B54D83BA">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>5FBBCDA6-11A1-CDDA-2AA4-FD0664035413</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo" id="0A9B39BD-253E-A07A-4EAD-11662C04FC03">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>E7EABFD5-C6E2-A7FA-2CBA-D945E2787170</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76BE41F5-65F3-C054-F4AE-2ED79261AE83" referredColumn="0D55D14B-3E8A-104C-DAEB-C51750E5639C"/>
+</associations>
+</Column>
+<Column name="id_rol" id="96C1B337-65CA-BE0E-4071-7A92D9507731">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>086C9C17-149D-82C9-B82D-F7D4683CAAAB</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7059432B-A62F-BC36-515F-01843F34F158" referredColumn="0C5A722D-A484-F74E-3A68-4C5C2A62EF6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E7B7A17-5CE4-E62E-D272-2D129B6AEA14" name="LIBRETA_AHORRO_PK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>F7D73982-EA4E-6383-5ACE-6463F130FEC9</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB4A7E32-30DC-51A0-CB3C-A970FD69C0C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEC291BC-C747-A7CD-8709-3543427C22A2" name="ENTIDAD_FINANCIERA_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>D4972848-D3B7-45BC-9FCC-375FF50D9F8F</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD5C67DB-7252-7391-69B4-E5500A1B87C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FDD4620-1E6B-B73D-048B-D4C67D4519A4" name="TIPO_CUENTA_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>E7CF3EB4-AD30-C13D-D596-80ABEECE1539</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A9B39BD-253E-A07A-4EAD-11662C04FC03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76FD268E-9E73-A589-82D9-BDE86B7D1E71" name="ROL_TITULAR_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>09A875E3-5949-1F76-CF7B-8188775183C8</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C1B337-65CA-BE0E-4071-7A92D9507731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

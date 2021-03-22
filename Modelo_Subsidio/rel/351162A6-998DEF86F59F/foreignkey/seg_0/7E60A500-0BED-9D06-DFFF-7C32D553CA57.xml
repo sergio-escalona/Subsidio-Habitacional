@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E60A500-0BED-9D06-DFFF-7C32D553CA57" containerWithKeyObject="6A813894-2433-DF9C-DEC6-C97E79117F9C" localFKIndex="365F67BC-129F-871F-3C3D-9958D2ACD544" name="POSTULACION_TRAMO_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>BCB521E1-31A1-CAFD-A9E8-9A7E2CBB51A2</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<referredTableLongName>TRAMO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11801D61-CFD0-F1C4-2093-42233FB817E1</referredTableID>
+<keyObject>3060697F-836F-77F5-D75A-E48622D7CA6D</keyObject>
+<referredKeyID>3060697F-836F-77F5-D75A-E48622D7CA6D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tramo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

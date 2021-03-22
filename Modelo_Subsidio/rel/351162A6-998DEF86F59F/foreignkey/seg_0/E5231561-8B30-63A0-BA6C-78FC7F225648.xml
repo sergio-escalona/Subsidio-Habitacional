@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5231561-8B30-63A0-BA6C-78FC7F225648" containerWithKeyObject="3B64D0EA-D589-799D-53B8-BE895F6BCAE2" localFKIndex="4F4885F1-6503-F2C0-B180-1B3D52982A74" name="CONYUGE_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>6AE6E9AB-FF23-4679-EDC0-5FA98DDD47DA</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<referredTableLongName>CONYUGE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0959A7C-7FFF-443E-1C4B-3BE028E07389</referredTableID>
+<keyObject>F3308F08-1BE4-A1E1-28AA-C7AD78BA0810</keyObject>
+<referredKeyID>F3308F08-1BE4-A1E1-28AA-C7AD78BA0810</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rut_conyu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

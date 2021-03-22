@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66066031-C9BD-5CAD-5CB5-9F8C3C4CE1BB" containerWithKeyObject="6A813894-2433-DF9C-DEC6-C97E79117F9C" localFKIndex="97D97642-4BA7-E6A9-5143-24923E9475AF" name="LIBRETA_AHORRO_FK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 22:24:00 UTC</createdTime>
+<generatorID>4384116F-68C6-996D-E03C-C314B797F698</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<referredTableLongName>LIBRETA_AHORRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D8473E0-DA0B-30CC-524B-B1B7EB6F53C4</referredTableID>
+<keyObject>1E7B7A17-5CE4-E62E-D272-2D129B6AEA14</keyObject>
+<referredKeyID>1E7B7A17-5CE4-E62E-D272-2D129B6AEA14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_libreta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

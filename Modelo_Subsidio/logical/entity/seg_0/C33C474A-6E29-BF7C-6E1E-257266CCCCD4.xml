@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C33C474A-6E29-BF7C-6E1E-257266CCCCD4" name="RESOLUCION">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-06 22:20:48 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_resolucion" id="DCF701D1-7700-E867-E2EB-CEC00B56C301">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-06 22:20:55 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ant_cons" id="97706025-E991-2645-1169-5026EC9B293D">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-06 23:08:38 UTC</createdTime>
+<generatorID>7B584AFF-C1EC-2B3A-C52C-220CB2C16D89</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<referedAttribute>6BC6188A-11D2-0944-571E-3C9261894B30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ant_adm" id="740015CB-23D7-8C0A-96EE-D351073ED9E8">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-06 23:08:44 UTC</createdTime>
+<generatorID>0ABFD328-045A-3AE4-948C-9D5C60D2C3DD</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<referedAttribute>6BD21CC0-D625-B0CF-C3C3-AE61BC594674</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conclusion" id="A1F4C163-075B-F6DA-2E56-1BDEDA1ACD45">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 01:56:24 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="B29F1C65-201D-6B46-34DE-34D452346E4E">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-09 01:56:33 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_est_con" id="CB831B63-CBB4-1D10-ABB5-F62C37748A8D">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-12 23:03:18 UTC</createdTime>
+<generatorID>5803D0BA-F51A-0A7D-6B18-F5B7B355433D</generatorID>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<referedAttribute>31493818-7EA3-D3E7-06D9-0A673C851D14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85AC05AC-6C7A-2876-9E6F-A9986FAECA8A" name="ESTADO PK">
+<createdBy>CASA</createdBy>
+<createdTime>2020-07-06 22:21:06 UTC</createdTime>
+<ownerDesignName>Modelo_PS_Escalona_Rojas_026D</ownerDesignName>
+<engineerTo>
+<item key="351162A6-CC4C-0F07-20CD-998DEF86F59F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCF701D1-7700-E867-E2EB-CEC00B56C301</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
